@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- COPY FROM index.ejs -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Random Number Generator</title>
+</head>
+<body>
+    <h1>Random Number Generator</h1>
+
+    <form action="/" method="post">
+        <label for="from">From</label> <input type="number" class="numInputs" name="from" required>
+        <label for="to">To</label> <input type="number" class="numInputs" name="to" required>
+
+        <br><button type="submit" id="submitBtn">Generate</button>
+    </form>
+
+    <p id="result"></p>
+</body>
+</html>
